@@ -1,0 +1,104 @@
+/* ========== All common css start=========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 1.4;
+}
+
+  /* font-family: "Pangolin", cursive; */
+  /* font-family: "Roboto", sans-serif; */
+  /* font-family: "Rubik", sans-serif; */
+
+/* ========== All common CSS section END=========== */
+
+/* ========== header CSS section start=========== */
+.navbar-nav .nav-item .nav-link {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    color: #000000;
+}
+.navbar-nav, ul li a{
+    display: flex;
+    gap: 42px;
+}
+.primaryBtnFlex{
+    display: flex;
+    gap: 14px;
+}
+.primaryBtn{
+    background: #C7E7E1;
+    font-size: 16px;
+    color: #124C5F;
+    border-radius: 5px;
+    padding: 14px 44px;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    transition: all linear 0.5s;
+}
+.primaryBtn:hover{
+    background: #124C5F;
+    color: #FFFFFF;
+}
+
+/* ========== header CSS section END=========== */
+
+
+/* ========== hero section Start========= */
+#hero{
+    background-image: url(../images/bacground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+}
+.heroContant h1{
+    margin-top: 141px;
+    font-size: 44px;
+    width: 506px;
+    font-family: "Pangolin", cursive;
+}
+.heroContant p{
+    margin-top: 8px;
+    font-size: 19px;
+    width: 432px;
+    font-family: "Pangolin", cursive;
+}
+.bannerBtn{
+    margin-top: 30px;
+}
+/* ========= hero section end=========== */
+
+/* ========== hero section Start========= */
+/* ========= hero section end=========== */
+
+/* ========== hero section Start========= */
+/* ========= hero section end=========== */
+
+/* ========== hero section Start========= */
+/* ========= hero section end=========== */
