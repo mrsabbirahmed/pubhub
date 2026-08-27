@@ -82,7 +82,7 @@ ul li a {
     background-image: url(../images/bacground.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
+    height: 100vh;
 }
 
 .heroContant h1 {
@@ -93,7 +93,7 @@ ul li a {
 }
 
 .heroContant p {
-    margin-top: 8px;
+    margin-top: 10px;
     font-size: 19px;
     width: 432px;
     font-family: "Pangolin", cursive;
@@ -279,9 +279,12 @@ ul li a {
     display: flex;
     justify-content: end;
 }
+.product-card{
+    margin-top: 55px;
+}
 .productGroup {
     position: relative;
-    text-align: left;
+    text-align: center;
     padding: 0 5px;
     transition: all 0.4s ease;
 }
@@ -291,15 +294,61 @@ ul li a {
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 80px;
+    left: 40px;
 
 }
 .bg-color{
     position: absolute;
     left: 0;
-    bottom: -42px;
+    bottom: -60px;
+}
+.products-contant h4{
+    font-size: 28px;
+    color: #000000;
+    font-weight: 500;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+}
+.products-contant p{
+    font-size: 22px;
+    color: #979697;
+    font-weight: 400;
+    width: 284px;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+}
+.buy-btn{
+    padding: 10px 48px;
+    border: 2px solid #124C5F;
+    border-radius: 6px;
+    color: #124C5F;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    margin-top: 15px;
+    transition: all linear 0.4s;
+}
+.buy-btn:hover{
+   background: #124C5F;
+    color: #FFFFFF;
 }
 /* ========= products section end=========== */
+
+/* ========== detail section Start========= */
+#detail{
+    background-image: url(../images/detail\ section.png);
+   
+    margin-bottom: 30px;
+}
+/* ========= detail section end=========== */
+
+/* ========== testimonial section Start========= */
+#testimonial{
+    background-image: url(../images/testimonial.png);
+  
+}
+/* ========= testimonial section end=========== */
 
 /* ========== hero section Start========= */
 /* ========= hero section end=========== */
