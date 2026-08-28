@@ -120,12 +120,12 @@ ul li a {
 
 /* ========== service section Start========= */
 #services {
-    padding: 41px;
+    padding: 41px 0;
 }
 
 .services-category h5 {
     position: relative;
-    margin-bottom: 62px;
+    /* margin-bottom: 62px; */
     font-size: 28px;
     font-weight: 500;
     font-family: "Pangolin", cursive;
@@ -345,8 +345,9 @@ ul li a {
 
 /* ========== testimonial section Start========= */
 #testimonial{
-    background-image: url(../images/testimonial.png);
-  
+    background-image: url(../images/testimonial.png); 
+    padding: 40px$ git add .;
+    margin-top: 120px;
 }
 /* ========= testimonial section end=========== */
 
