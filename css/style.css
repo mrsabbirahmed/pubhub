@@ -125,7 +125,6 @@ ul li a {
 
 .services-category h5 {
     position: relative;
-    /* margin-bottom: 62px; */
     font-size: 28px;
     font-weight: 500;
     font-family: "Pangolin", cursive;
@@ -338,16 +337,74 @@ ul li a {
 /* ========== detail section Start========= */
 #detail{
     background-image: url(../images/detail\ section.png);
-   
-    margin-bottom: 30px;
+}
+.right-text{
+    margin-top: 74px;
+    margin-bottom: 138px;
 }
 /* ========= detail section end=========== */
 
 /* ========== testimonial section Start========= */
 #testimonial{
     background-image: url(../images/testimonial.png); 
-    padding: 40px$ git add .;
-    margin-top: 120px;
+    padding: 40px;
+}
+.testimonial-content h5{
+    position: relative;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Pangolin", cursive;
+}
+.testimonial-content h5::before {
+    position: absolute;
+    content: "";
+    bottom: 0px;
+    left: 0;
+    height: 3px;
+    width: 117px;
+    background-color: #3A8DA8;
+}
+.row{
+    align-items: end;
+}
+.customer-content{
+    align-items: center;
+    text-align: center;
+    height: 142px;
+    width: 360px;
+    background: #124C5F;
+}
+.customer-content h5{
+    color: #DDCA69;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+}
+.customer-content p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+.bone-wraper i{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #DDCA69;
+}
+.bone-wraper span{
+    margin-left:  10px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Rubik", sans-serif;
+}
+.customerBtn{
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 85px;
 }
 /* ========= testimonial section end=========== */
 
